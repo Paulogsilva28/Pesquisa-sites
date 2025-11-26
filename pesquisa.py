@@ -12,3 +12,5 @@ def carregar_já_vistos():
             return set (line.strip() for line in f)
         return set()
     
+    
+    
