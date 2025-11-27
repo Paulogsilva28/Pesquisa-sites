@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 
 # Fazendo a requisição para a página de notícias
-url = 'https://www.globo.com/'
 url = 'https://www.r7.com/'
 response = requests.get(url)
 html = response.text
