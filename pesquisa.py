@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 
 # --- Configurações ---
-URL_G1 = "https://g1.globo.com/busca/"
+URL_G1 = "https://g1.globo.com"
 ARQUIVO_LINKS = 'links_vistos.txt'
 
 # Termos de filtragem (para garantir que a notícia é relevante)
