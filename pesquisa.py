@@ -4,12 +4,13 @@ import os
 from datetime import datetime
 
 # --- Configurações ---
-URL_G1 = "https://g1.globo.com"
+URL_G1 = "https://g1.globo.com." 
+URL_R7 = "https://https://www.r7.com"
 ARQUIVO_LINKS = 'links_vistos.txt'
 
 # Termos de filtragem (para garantir que a notícia é relevante)
 TERMOS_VAGA = ["estágio", "ti", "informática", "seleção", "edital", "concurso", "governo", "prefeitura", "federal", "universidade"]
-TERMOS_PRINCIPAIS = ["estágio", "edital", "seleção", "concurso"]
+TERMOS_PRINCIPAIS = ["estágio", "edital", "seleção", "concurso", "Câmera", "prefeitura", "governo", "FGTS"]
 
 
 # --- Funções de Controle ---
