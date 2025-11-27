@@ -40,7 +40,7 @@ def buscar_vagas_no_g1():
         # 1. Faz a requisição HTTP para a URL
         # O cabeçalho simula um navegador para evitar bloqueios simples
         headers = {'User-Agent': 'Mozilla/5.0'}
-        resposta = requests.get(URL_G1, headers=headers, timeout=15)
+        resposta = requests.get(URL_G1,URL_R7, headers=headers, timeout=15)
         resposta.raise_for_status() 
     except requests.exceptions.RequestException as e:
         print(f"ERRO: Não foi possível acessar a URL. Verifique sua conexão ou a URL. Detalhes: {e}")
